@@ -1,0 +1,25 @@
+.center {
+	text-align: center;
+}
+
+main {
+	margin-left: 20vw;
+	margin-right: 20vw;
+}
+
+.chatbox {
+	border: solid 1px black;
+	border-bottom: 0;
+	height: 80vh;
+	padding: 1em;
+	width: calc(100% - 2em);
+	word-break: break-all;
+	overflow-y: scroll;
+	line-height: 2px;
+}
+
+#input {
+	padding: 10px;
+	border: solid 1px black;
+	width: calc(100% - 20px);
+}
